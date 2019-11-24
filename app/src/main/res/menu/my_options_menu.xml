@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/m_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/m_title_logout"
+        android:onClick="LogOut"/>
+    <item android:id="@+id/m_data"
+        android:icon="@drawable/ic_file"
+        android:title="@string/m_title_data"
+        android:onClick="AtendanceDisp"/>
+    <item android:id="@+id/m_pwd"
+        android:title="@string/app_chPwd"
+        android:onClick="ChangePassword"></item>
+</menu>

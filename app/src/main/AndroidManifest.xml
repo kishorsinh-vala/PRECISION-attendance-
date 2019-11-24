@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mscit1.precision">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Update_record" />
+        <activity android:name=".Update_stud" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- intent-filter -->
+
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Display">
+
+        </activity>
+        <activity android:name=".Ins_modifi_stud" />
+        <activity android:name=".Ins_stud" />
+        <activity android:name=".Atendance" />
+        <activity android:name=".DeleteStud" />
+        <activity android:name=".DeleteRecord" />
+        <activity android:name=".ChangePassword"></activity>
+    </application>
+
+</manifest>

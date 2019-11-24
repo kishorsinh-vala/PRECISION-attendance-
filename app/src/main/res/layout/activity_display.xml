@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/d_layout_rel"
+    android:background="@color/colorPricision"
+    tools:context=".Display">
+
+    <Spinner
+        android:id="@+id/d_sp_stream"
+        android:padding="10dp"
+        android:layout_width="120dp"
+        android:layout_marginEnd="12dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:autofillHints="Select Stream"
+        android:background="@color/orangeLight"
+        android:prompt="@color/colorAccent"
+        android:entries="@array/array_stream"
+        android:layout_marginStart="12dp" />
+    <Spinner
+        android:id="@+id/d_sem_stream"
+        android:padding="10dp"
+        android:layout_width="120dp"
+        android:layout_marginEnd="12dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/d_sp_stream"
+        android:autofillHints="Select Stream"
+        android:background="@color/orangeLight"
+        android:prompt="@color/colorAccent"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/d_btn_getData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/d_sem_stream"
+        android:text="@string/app_data"
+        android:textSize="18dp"
+        android:backgroundTint="@color/turquoiseBlue"/>
+
+    <Button
+        android:id="@+id/d_btn_ins"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/d_btn_getData"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/greenLight"
+        android:text="Insert Or Modification"
+        android:textSize="20dp" />
+        <GridView
+            android:id="@+id/d_gv_stud"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_below="@+id/d_btn_ins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:numColumns="auto_fit"></GridView>
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/d_btn_addData"
+        android:layout_alignParentRight="true"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_add_circle_black_24dp"/>
+
+    </RelativeLayout>

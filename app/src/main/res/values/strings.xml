@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">PRECISION</string>
+    <string name="app_fnm">First Name</string>
+    <string name="app_lnm">Last Name</string>
+    <string name="app_add">Address</string>
+    <string name="app_contNo">Contact NO.</string>
+    <string name="app_login">LOGIN</string>
+    <string name="app_Add">Insert</string>
+    <string name="app_data">Get Data</string>
+    <string name="app_update">Update</string>
+    <string name="app_Delete">Delete</string>
+    <string name="app_chPwd">Change Password</string>
+    <string name="app_clear">CLEAR</string>
+    <string name="m_title_logout">LOGOUT</string>
+    <string name="m_title_data">ATTENDANCE</string>
+
+    <string name="contentdescription">contentDescription</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="go">GO</string>
+    <string-array name="array_stream">
+        <item>BBA</item>
+        <item>MBA</item>
+        <item>BCA</item>
+        <item>MCA</item>
+        <item>BscIT</item>
+        <item>MScIT</item>
+        <item>BCOM</item>
+        <item>MCOM</item>
+    </string-array>
+    <string-array name="array_b_sem">
+        <item>SEM1</item>
+        <item>SEM2</item>
+        <item>SEM3</item>
+        <item>SEM4</item>
+        <item>SEM5</item>
+        <item>SEM6</item>
+    </string-array>
+    <string-array name="array_sem">
+        <item>SEM1</item>
+        <item>SEM2</item>
+        <item>SEM3</item>
+        <item>SEM4</item>
+    </string-array>
+</resources>

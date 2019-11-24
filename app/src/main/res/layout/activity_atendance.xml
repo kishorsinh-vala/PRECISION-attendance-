@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPricision"
+    tools:context=".Atendance">
+    <Spinner
+        android:id="@+id/at_sp_stream"
+        android:padding="10dp"
+        android:layout_width="120dp"
+        android:layout_marginEnd="12dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:autofillHints="Select Stream"
+        android:background="@color/orangeLight"
+        android:prompt="@color/colorAccent"
+        android:entries="@array/array_stream"
+        android:layout_marginStart="12dp" />
+    <Spinner
+        android:id="@+id/at_sp_sem"
+        android:padding="10dp"
+        android:layout_width="120dp"
+        android:layout_marginEnd="12dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/at_sp_stream"
+        android:autofillHints="Select Stream"
+        android:background="@color/orangeLight"
+        android:prompt="@color/colorAccent"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/at_btn_getData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/at_sp_sem"
+        android:text="@string/app_data"
+        android:textSize="18dp"
+        android:backgroundTint="@color/turquoiseBlue"/>
+    <GridView
+        android:id="@+id/at_gv_atd"
+        android:layout_below="@id/at_btn_getData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></GridView>
+</RelativeLayout>
